@@ -1,0 +1,302 @@
+28th June 2021
+=======================
+Flex Practical with internal CSS
+Ex - https://www.os-templates.com/
+css color can give in 3 ways - Hexagonal, RGB and color name
+
+29th June 2021
+==========================
+Selectors - selecting an element from HTML document
+List of CSS Selectors - 
+1. Universal Selector - * always on top of the style
+2. Element/tag selector - tag name
+3. id selector - #
+4.class selector - .
+5. Descendent Selector
+6. Child selector - Select direct child >
+7. Adjacent sibling selector +
+8. general Sibling Selector ~
+9. Group selector - tagname, idname, classname.......
+
+NOTE:id is most powerful in css selector
+
+31st Jul 2021
+===========================
+Pseudo classes and pseudo elements
+Pseudo classes - hover, visited, focus
+Pseudo elements - before and after
+
+2nd Aug 2021
+=========================
+Positions (top, bottom, left and right)- 5 types of positions in HTML
+1. Static - static is the default position of HTML element, it doesn't allow you to move anywhere
+2.Relative - we can move element using position:relative without disturbing other element, orginal layer of relative element retain same
+3. Absolute - we can move element using position:Absolute and it will remove orginal layer of absolute element, start from top corner of the web page
+4. Fixed - work exactly as absolute, but
+
+Font Awwsome
+
+03 Aug 2021
+================
+Grid - depends on it's own element
+Media queries:
+Devices are categorized into 5 types
+1. Extra Small xs < 570px
+2. Small Devices sm > 570px < 768px
+3. Medium md min-width(768px) and max-width(992px)
+4. large lg max-width (1200px)
+5. Extra large xl - min-width(1200px)
+
+04 Aug Javascript
+====================
+keyboard shortcut - https://docs.emmet.io/cheat-sheet/
+Javascript - JS is used to make web application very intaeractive and dynamic
+Javascript is a scripting language which can be used in client side (Javascript) and server side (Node js)
+Programming Language will use compiler
+and Scripting Language will use interpreter to execute the code
+interpreter will execute the code line by line
+
+Where will use Javascript?
+-Javascript is everywhere
+-client side
+-server side
+-mobile applications (React Native, ionic)
+-Desktop applications
+Javascript can be write inside script tag
+
+Variables- used to store information
+Variable naming convention - 
+1. cannot starts with numbers
+2. cannot give space between variable name
+3. cannot give special characters except $ and _
+4. cannot giv reserved key words like var
+Variable value naming convention
+1.camelcasing(firstName)
+2.pascalcasing(FirstName)
+3.snake casing(first_name)
+NOTE: Always prefer to write JS before end of the body instead of writing in head tag
+
+05 Aug 2021
+======================
+Datatypes and Operators
+===============================
+scriptingnumeric
+Boolean - True or False
+undefined - declare a variable without assigning anything
+null - an empty
+
+
+
+
+
+Javascript is a dynamic typed language
+
+Operators
+====================
+Arthmetic Operators - +. -, * , /, %, 
+Assignment - =. +=, -=, *=, /=
+
+Conditional Operators
+=========================
+<, >, <=, >=, ==, ===
+
+
+
+Equal to (==) and strict equal to (====)
+Equal to - it will check the value but ignore types ex: console.log(10=="10") // returns TRUE
+
+NOTE : go through Interpreter, compiler and injector
+
+06 Aug 2021
+=================================
+Logical Operators
+1. AND (&&)
+TT returns True
+TF returns False
+FT returns False
+FF returns False
+
+2. OR (||)
+TT returns True
+TF returns Trure
+FT returns True
+FF returns False
+
+3. Logical Not(!)
+
+Falsy Values are 0, undefined, null and emty strings.
+
+Conditional Statements - if, else is, else, switch
+for single scenario go for if else
+for multiple scenarios go fo else if
+switch and ternary Operators
+Ternary syntax - condition ? statement1 : statement2; // 10>5?
+
+
+09 Aug 2021
+============================
+Loop - DRY(Don't Repeat Yourself)
+For, whie, do, ES6, for in, for of
+3 steps in loops - initialization, condition, increment/decrement
+for(initializtion;condition;increment/decrement)
+
+10 Aug 2021
+===============
+DO while Loop
+Entry controlled Loop - (for loop, while)
+Exit controlled Rule - (do while loop)
+for loop - when we know the initialization part or where to start
+while - when we dpn't know where to start
+
+Arrays (Data Structure) - stores collection of data
+var arr = ["rakshitha", "sangeetha", "vidya", "DIvya"];
+Push - pushing an element to array
+Pop - 
+includes - method, it will check whether value is included or not in the array
+slice - extracting some portion of array elementssplice
+splice - add or delete the elements in between
+unshift -  adding an element starting of the array
+shift - Remove the first element of an array
+
+11th Aug 2021
+======================
+Arrays method continued
+indexOf-
+join()- it will return a new string all the element in an array
+lastIndexOf()-
+reverse()- reverse the element
+toString()- it will convert array into string
+sort()- returns array elements in ascending order
+concat()- concating any two arrays
+map()-
+reduce()-
+filter -
+some()-
+
+Strings and String methods
+===================
+string - sequence of characters
+string methods - include, length, concat, indexOf, lastIndexOf
+replace-
+split-
+toLowerCase-
+toUpperCase
+trim
+trimStart
+trimEnd
+
+12th Aug 2021
+=================
+Objects is a storage technique which will store detailed information.
+Array of Objects - to store multiple objects
+
+13th Aug 2021
+================
+DOM - Object module representation of your current page
+It is used to manipulate the DOM structure
+
+16th Aug 2021
+===============
+DOM continued
+append dynamic element using Javascript
+how to create elements using Javascript
+
+Task - 10 users, 10 cards
+
+
+17th Aug 2021
+=================
+https://codepen.io/Fearless4va/pen/XWRQGpw
+DOM MEthods
+getAttributes
+setAttributes
+class list
+
+19th Aug 2021
+================
+Task - what is the difference between function declaration and functions expression
+Functions - piece of code which will perform specific task
+How to declare a function - function <function_name>(){}
+ex - function greetTheUser(){
+    //body of the function
+}
+How to call a function or invoking function
+ex: greetTheUser
+parameters - input of ur function
+arguments - when you calling a function if you pass anything
+
+Different types of function:
+function declaration
+Ananymous function -  a function without a name
+function with default arguments
+function with no parameters
+function with parameters
+function expression
+self execution function - it will call or invoke
+arrow function
+recursive function
+function with  return statement
+
+Function expression - if you are assigning to a variable
+
+20th Aug 2021
+================
+Scope
+Difference between variable, constant and let
+Difference between function declaration and function expression
+var - var keyword was introduced  on es5 (2005)
+variable data can access throughout the application
+Let and Constant was introduced on es6 (ECMA 2015) - block scoped variable
+Constant - data will not be change throughout the application
+
+Global scope - 
+function scope -
+Block scope - 
+
+21st Aug 2021
+=====================
+Context
+hoisting - we can access function before the function declaration
+
+23rd Aug 2021
+==================
+Events - 
+1. Mouse Events -click, dblclick, mouseover
+
+Call back - if you are passing function as an argument to another function, it is called call back function
+
+24th Aug 2021
+=================
+Form Events - onChange, focus, blur, input, keyup, keydown
+Page Events - windo resize
+
+25th Aug 2021
+==============
+Form validation
+
+26th Aug 2021
+==============
+Inbuild methods
+
+27th Aug 2021
+=============
+inbuilt method continued
+math random
+========
+step1 -create input field, a button with a name to get OTP
+step2 - Click event on get OTP
+step3 - generate random number
+step4 - display in input field
+
+Set interval and Set Timeout - will take two arguments function and time in miliseconds
+
+30th Aug 2021
+=========================
+GIT - free version contron system - management of changing document, files, large web application and collective information
+Directory - folder
+terminal - command line
+cd -  change Directory
+Repository - project or folder where your project folder files kept
+pwd (Present working directory)- it will show current directory
+ls - will show files in the current directory
+git clone - copying the code on our local
